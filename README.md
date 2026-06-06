@@ -1,95 +1,62 @@
-SIPAR SECURITY
+# Sipar Security
 
-Open-Source Cybersecurity for Modern Networks
-
-Monitor. Detect. Defend.
-
-Sipar Security develops practical cybersecurity tools focused on network visibility, threat detection, and SOC-inspired monitoring.
-
-[ View Product ]
-[ GitHub ]
+> Open-source network security tools built in Pakistan 🇵🇰
 
 ---
 
-🚀 Sipar Network Monitor Version 1.0 Released
+## Who We Are
 
-Version 2.0 is currently in development.
-Core functionality is complete and final enhancements are underway.
+Sipar Security is a cybersecurity company from Pakistan building
+practical, open-source network security tools for home users,
+IT admins, and small businesses.
 
----
-
-ABOUT
-
-Sipar Security is an independent cybersecurity startup founded by Sayed Muhammad Subayyal.
-
-Our mission is to create accessible, open-source security tools that help students, researchers, home labs, and organizations better understand and protect their networks.
+No enterprise budget required.
 
 ---
 
-FEATURED PRODUCT
+## Projects
 
-Sipar Network Monitor
+### Network Monitor v2.0 — Device Intelligence
+> Latest Release · Publicly Available
 
-A lightweight network visibility and threat detection platform designed for real-time monitoring and security awareness.
+Python-based SOC-style network monitoring and intrusion detection system.
 
-Capabilities:
+- Real-time device tracking via ARP scanning
+- Offline detection after 3 missed scans
+- ARP spoofing detection with cooldown
+- MAC randomization handling
+- Persistent event logging to disk
+- Full dark SOC dashboard
 
-✓ Device Discovery
-✓ Real-Time Monitoring
-✓ Event Logging
-✓ Risk Scoring
-✓ SOC Dashboard
-✓ ARP Spoof Detection
-
----
-
-VERSION 1.0
-
-Released on GitHub
-
-Features:
-
-• Network scanning engine
-• Device inventory
-• Event collection
-• Dashboard interface
-• Threat detection foundation
-• Persistent logging
+**→ [github.com/siparsecurity/network-monitor-v2](https://github.com/siparsecurity/network-monitor-v2)**
 
 ---
 
-VERSION 2.0
+### Network Monitor v1.0 — Foundation
+> First Release · Archived
 
-In Development
-
-Coming improvements:
-
-• Enhanced detection engine
-• Better event correlation
-• Dashboard redesign
-• Expanded monitoring features
-• Performance improvements
-• Additional security modules
+**→ [github.com/siparsecurity/network-monitor](https://github.com/siparsecurity/network-monitor)**
 
 ---
 
-FOUNDER
+## Roadmap
 
-Sayed Muhammad Subayyal
-
-Founder, Sipar Security
-
-Building open-source cybersecurity tools and security research projects focused on practical network defense.
-
----
-
-COMMUNITY
-
-GitHub
-LinkedIn
-X (Twitter)
+| Version | Status |
+|---|---|
+| v1.0 Foundation | ✅ Released |
+| v2.0 Device Intelligence | ✅ Released |
+| v3.0 Alerts | 🔜 Coming Soon |
+| v1.0 Public Release | 🔜 2026 |
 
 ---
 
-© 2026 Sipar Security
-Built in Pakistan
+## Contact
+
+- 🌐 [siparsecurity.github.io](https://siparsecurity.github.io)
+- 📧 siparsecurity@gmail.com
+- 💼 [LinkedIn](https://linkedin.com/company/siparsecurity)
+- 𝕏 [x.com/SiparSecurity](https://x.com/SiparSecurity)
+
+---
+
+*Built in Pakistan · MIT License · © 2026 Sipar Security*
