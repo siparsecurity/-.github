@@ -68,7 +68,6 @@ ARP scan engine, event server, SOC dashboard, and auto interface detection.
 | v1.0 | Foundation | ✅ Publicly Released |
 | v2.0 | Device Intelligence | ✅ Publicly Released |
 | v3.0 | Alerts & Export | 🔜 In Development |
-| v4.0 | Full Public Release | 🔜 Coming Soon |
 
 ---
 
