@@ -34,3 +34,75 @@ A complete network intrusion detection system. Moves from monitoring to
 active attack detection — with confidence-scored ARP spoof detection,
 duplicate MAC detection, port scan detection, rogue device flagging, and
 a full threat level system.
+sudo python3 run_soc.py
+
+→ Dashboard live at http://localhost:5000
+
+**What it does:**
+
+| Feature | Detail |
+|---|---|
+| ARP Spoof Detection | Confidence-scored — LOW / MEDIUM / HIGH |
+| Duplicate MAC Detection | Same MAC on two IPs simultaneously |
+| Port Scan Detection | Background packet sniffing — 5 ports in 10s |
+| Rogue Device Detection | Flags devices outside trusted baseline |
+| Threat Level System | LOW / MEDIUM / HIGH / CRITICAL per device |
+| Risk Decay | Risk drops automatically after 3 clean scans |
+| Cross-Platform | Linux, Windows (Npcap), Android (Termux) |
+| SOC Dashboard | 6 stat cards, filtered alerts, risk reset |
+
+**→ [View Repository](https://github.com/siparsecurity/network-monitor-v3)**
+**→ [Download v3.0](https://github.com/siparsecurity/network-monitor-v3/releases)**
+
+---
+
+### Network Monitor v2.0 — Device Intelligence
+**Publicly Available**
+
+Device schema with first/last seen, offline detection, ARP spoof cooldown,
+and MAC randomization handling.
+
+**→ [View Repository](https://github.com/siparsecurity/network-monitor-v2)**
+
+---
+
+### Network Monitor v1.0 — Foundation
+**Publicly Available**
+
+The first working version — ARP scan engine, event server, SOC dashboard.
+
+**→ [View Repository](https://github.com/siparsecurity/network-monitor)**
+
+---
+
+## 📋 Roadmap
+
+| Version | Name | Status |
+|---|---|---|
+| v1.0 | Foundation | ✅ Publicly Released |
+| v2.0 | Device Intelligence | ✅ Publicly Released |
+| v3.0 | Attack Detection & Cross-Platform | ✅ Publicly Released — Final |
+
+---
+
+## 👤 Founder
+
+**Sayed Muhammad Subayyal** — Cybersecurity researcher and penetration tester
+from Peshawar, Pakistan. Published researcher. Founder of Sipar Security.
+
+---
+
+## 📬 Contact
+
+| | |
+|---|---|
+| 🌐 Website | [siparsecurity.github.io](https://siparsecurity.github.io) |
+| 🛠️ Services | [siparsecurity.github.io/services](https://siparsecurity.github.io/services.html) |
+| 📧 Email | siparsecurity@gmail.com |
+| 💬 WhatsApp | [+92 332 576 5207](https://wa.me/923325765207) |
+| 💼 LinkedIn | [Sipar Security](https://linkedin.com/company/siparsecurity) |
+| 𝕏 Twitter | [@SiparSecurity](https://x.com/SiparSecurity) |
+
+---
+
+*Built in Pakistan 🇵🇰 · MIT License · © 2026 Sipar Security*
